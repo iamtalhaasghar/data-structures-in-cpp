@@ -1,13 +1,22 @@
-#include "linked_list.h"
+#include "linkedlist.cpp"
 #include <iostream>
+
 using namespace std;
 int main(){
+   
        
   LinkedList students;
-  student.add([12,15, 45,]);
-  students.delete(student.search(12));
-  students.insertAfter(students.search(13), 79);
-
-
-    
+  students.display();
+  
+  students.insertAtLast(2123);
+  students.display();
+  
+  
+  
+  students.insertAtLast(2233);
+  students.insertAtLast(2334);
+  students.insertAtLast(2323);
+  students.display();
+  students.insertAtFirst(10);  
+  students.display();
  }
